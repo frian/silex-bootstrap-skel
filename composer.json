@@ -1,6 +1,6 @@
 {
     "name": "frian/silex-bootstrap-skel",
-    "description": "A pre-configured skeleton for the Silex microframework",
+    "description": "A pre-configured skeleton for the Silex microframework based on silexphp/Silex-Skeleton",
     "license": "MIT",
     "type": "project",
     "require": {
