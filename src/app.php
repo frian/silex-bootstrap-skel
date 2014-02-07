@@ -12,6 +12,11 @@ use Silex\Provider\TranslationServiceProvider;
 $app = new Application();
 
 /*
+ *  -- register service controller --------------------------------------------
+*/
+$app->register(new ServiceControllerServiceProvider());
+
+/*
  *  -- register twig templating -----------------------------------------------
 */
 $app->register(new TwigServiceProvider());
