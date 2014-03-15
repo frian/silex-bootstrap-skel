@@ -7,7 +7,7 @@ use Silex\Provider\FormServiceProvider;
 use Silex\Provider\SwiftmailerServiceProvider;
 use Silex\Provider\ValidatorServiceProvider;
 use Silex\Provider\TranslationServiceProvider;
-
+use Silex\Provider\ServiceControllerServiceProvider;
 
 $app = new Application();
 
