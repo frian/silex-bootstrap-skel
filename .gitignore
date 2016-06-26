@@ -1,6 +1,7 @@
 # Symfony directories
 vendor/*
 composer.lock
+var/logs/silex_dev.log
 
 # Configuration files
 
@@ -9,3 +10,4 @@ composer.lock
 .project
 .settings/
 
+/vendor/
